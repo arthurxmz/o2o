@@ -6,6 +6,6 @@ public class UserController {
         hi.hello();
     }
     public static void hello(){
-        System.out.println("HelloWorld4");
+        System.out.println("HelloWorld6");
     }
 }
