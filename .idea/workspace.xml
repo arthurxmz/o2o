@@ -8,6 +8,7 @@
   <component name="ChangeListManager">
     <list default="true" id="113a90ae-5dbf-4fd0-ad94-771bbbfd343c" name="Default" comment="第一次提交，整个o2o">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xiemingzhong/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiemingzhong/controller/UserController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,8 +55,8 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiemingzhong/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="200">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
               <folding>
                 <element signature="e#217#218#0" expanded="true" />
                 <element signature="e#265#266#0" expanded="true" />
@@ -111,7 +112,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="978" />
+    <option name="x" value="486" />
     <option name="width" value="1430" />
     <option name="height" value="1036" />
   </component>
@@ -409,7 +410,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560785857823</updated>
-      <workItem from="1560785862178" duration="8500000" />
+      <workItem from="1560785862178" duration="8826000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交，整个o2o">
       <created>1560788276292</created>
@@ -422,10 +423,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8500000" />
+    <option name="totallyTimeSpent" value="8826000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="853" y="0" width="1430" height="1036" extended-state="0" />
+    <frame x="486" y="0" width="1430" height="1036" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -548,8 +549,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiemingzhong/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="200">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
           <folding>
             <element signature="e#217#218#0" expanded="true" />
             <element signature="e#265#266#0" expanded="true" />
@@ -563,7 +564,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited />
+          <last-edited>o2o archive</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -576,7 +577,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -636,7 +637,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited />
+          <last-edited>Maven: junit:junit:4.11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
