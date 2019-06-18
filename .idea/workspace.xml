@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="113a90ae-5dbf-4fd0-ad94-771bbbfd343c" name="Default" comment="第一次提交，整个o2o">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/xiemingzhong/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xiemingzhong/controller/UserController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -54,8 +55,8 @@
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xiemingzhong/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="250">
+              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
                 <element signature="e#217#218#0" expanded="true" />
                 <element signature="e#265#266#0" expanded="true" />
@@ -177,6 +178,16 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="xiemingzhong" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="o2o" type="b2602c69:ProjectViewProjectNode" />
+              <item name="o2o" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="xiemingzhong" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -410,7 +421,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560785857823</updated>
-      <workItem from="1560785862178" duration="9109000" />
+      <workItem from="1560785862178" duration="9460000" />
     </task>
     <task id="LOCAL-00001" summary="第一次提交，整个o2o">
       <created>1560788276292</created>
@@ -423,7 +434,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9109000" />
+    <option name="totallyTimeSpent" value="9460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="836" y="2" width="1430" height="1036" extended-state="0" />
@@ -435,7 +446,7 @@
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.3291714" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.3284091" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3284091" />
@@ -549,8 +560,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xiemingzhong/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        <state relative-caret-position="250">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="e#217#218#0" expanded="true" />
             <element signature="e#265#266#0" expanded="true" />
