@@ -5,6 +5,7 @@ import java.util.List;
 
 public class Shop {
     private Long shopId;
+    private Long shopCategoryId;
     private String shopName;
     private String shopDesc;
     private String shopAddr;
@@ -12,6 +13,15 @@ public class Shop {
     private String shopImg;
     private Integer priority;
     private Date createTime;
+
+    public Long getShopCategoryId() {
+        return shopCategoryId;
+    }
+
+    public void setShopCategoryId(Long shopCategoryId) {
+        this.shopCategoryId = shopCategoryId;
+    }
+
     private Date lastEditTime;
     //-1不可用 0.审核中1.可用
     private Integer enableStatus;
