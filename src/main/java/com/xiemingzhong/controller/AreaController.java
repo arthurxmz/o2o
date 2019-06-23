@@ -9,16 +9,18 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import org.slf4j.Logger;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.logging.Logger;
+
 
 @Controller
 @RequestMapping("/superadmin")
 public class AreaController {
-    org.slf4j.Logger logger=LoggerFactory.getLogger(AreaController.class);
+    Logger logger = LoggerFactory.getLogger(AreaController.class);
+
     @Autowired  //spring
     private AreaService areaService;
 
@@ -26,7 +28,7 @@ public class AreaController {
     @ResponseBody
     private Map<String, Object> listArea() {
         logger.info("==start==");
-    long starTime = System.currentTimeMillis();
+        long starTime = System.currentTimeMillis();
         Map<String,Object> modelMap=new HashMap<String,Object>();
         List<Area> list = new ArrayList<Area>();
         try{
@@ -34,14 +36,14 @@ public class AreaController {
             modelMap.put("rows",list);
             modelMap.put("total",list.size());
         }catch(Exception e){
-            e.printStackTrace();
+            logger.error(e.toString());
             modelMap.put("success",false);
             modelMap.put("errMsg",e.toString());
 
         }
         logger.error("test error!");
         long endTime=System.currentTimeMillis();
-        logger.debug("costTime:[{}ms]",endTime-starTime);
+        logger.debug("costTime"+ (endTime-starTime) +"ms]");
         logger.info("===end===");
         return modelMap;
     }
